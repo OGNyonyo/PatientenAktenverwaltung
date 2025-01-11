@@ -25,24 +25,4 @@ Unser Projekt basiert auf den folgenden Technologien:
 - **IDE:** IntelliJ IDEA
 - **GUI-Biblothek** Swing
 
----
-
-📦 Patientenverwaltungssystem
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── Patient                # Java-Datei für Patientendaten
-│   │   │   ├── verwaltung
-│   │   │   │   ├── Verwaltung         # Verwaltungslogik (Java-Klasse)
-│   │   │   │   └── VerwaltungForm     # GUI mit Swing für die Verwaltung
-│   │   │   ├── org.example
-│   │   │       └── Main               
-│   ├── resources                      # Ressourcen wie Konfigurationsdateien
-│   └── test
-│       ├── java
-│       │   ├── PatientTest            # Testklasse für Patientendaten
-│       │   └── VerwaltungTest         # Testklasse für Verwaltungslogik
-├── .gitignore                         # Ignoriert unnötige Dateien
-├── pom.xml                            # Maven-Konfigurationsdatei
-└── README.md                          # Projektdokumentation
 
