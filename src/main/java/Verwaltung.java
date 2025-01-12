@@ -26,7 +26,7 @@ public class Verwaltung extends JFrame {
     public JTextArea textAreaAusgabe;
     public JLabel LabelAnamnese;
     public JTextField textFieldAnamnese;
-    public JButton buttonAbschicken;
+    public JButton buttonBeilegen;
     public JButton buttonfiltern;
     public ButtonGroup versicherungGroup;
     public List<Patient> patientenListe;
@@ -110,7 +110,7 @@ public class Verwaltung extends JFrame {
         });
 
         // Button "Abschicken" Logik
-        buttonAbschicken.addActionListener(e -> {
+        buttonBeilegen.addActionListener(e -> {
 
             textAreaAusgabe.setText("");
             textFieldGeburtsdatum.setText("");
@@ -130,7 +130,7 @@ public class Verwaltung extends JFrame {
             //initPatienten(); // Initiale Patienten wieder herstellen
 
             // Nachricht anzeigen
-            JOptionPane.showMessageDialog(myPanel, "Überweisung weitergegeben!");
+            JOptionPane.showMessageDialog(myPanel, "Patient wurde der Akte beigelegt!");
 
             // Fenster schließen
             dispose();
