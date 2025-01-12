@@ -109,7 +109,7 @@ public class Verwaltung extends JFrame {
             }
         });
 
-        // Button "Abschicken" Logik
+        // Button "Akte Beilegen" Logik
         buttonBeilegen.addActionListener(e -> {
 
             textAreaAusgabe.setText("");
@@ -125,9 +125,6 @@ public class Verwaltung extends JFrame {
             comboBoxVersicherungGesetz.setEnabled(false);
             comboBoxVersicherungGesetz.setSelectedIndex(0);
             comboBoxVersicherungPrivat.setSelectedIndex(0);
-            // Alle hinzugefügten Patienten löschen
-            //patientenListe.clear();
-            //initPatienten(); // Initiale Patienten wieder herstellen
 
             // Nachricht anzeigen
             JOptionPane.showMessageDialog(myPanel, "Patient wurde der Akte beigelegt!");
