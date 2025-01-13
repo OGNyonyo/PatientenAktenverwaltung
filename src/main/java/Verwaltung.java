@@ -45,8 +45,6 @@ public class Verwaltung extends JFrame {
         setVisible(true);
         setResizable(false);
 
-        textAreaAusgabe.setEditable(false);
-
         versicherungGroup = new ButtonGroup();
         versicherungGroup.add(radioButtongesetz);
         versicherungGroup.add(radioButtonprivat);
