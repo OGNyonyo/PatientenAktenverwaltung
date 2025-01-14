@@ -39,7 +39,7 @@ public class Verwaltung extends JFrame {
         myPanel.setBackground(new Color(232, 242, 255));
 
         setContentPane(myPanel);
-        setTitle("Patienten Aktenverwaltung");
+        setTitle("Patientenaktenverwaltung");
         setSize(1200, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
