@@ -34,7 +34,6 @@ public class Verwaltung extends JFrame {
     public Verwaltung() {
         patientenListe = new ArrayList<>();
         initPatienten();
-        initVersicherungen();
 
         myPanel.setBackground(new Color(232, 242, 255));
 
@@ -100,7 +99,6 @@ public class Verwaltung extends JFrame {
             } catch (NumberFormatException ex) {
                 JOptionPane.showMessageDialog(myPanel, "Ungültige Eingabe bei der Versicherungsnummer!",
                         "Fehler", JOptionPane.ERROR_MESSAGE);
-
             }
         });
 
@@ -142,33 +140,6 @@ public class Verwaltung extends JFrame {
                 textAreaAusgabe.setText(ausgabe.toString());
             }
         });
-    }
-
-
-    private void initVersicherungen() {
-        comboBoxVersicherungPrivat.addItem("Allianz Private Krankenversicherung (APKV)");
-        comboBoxVersicherungPrivat.addItem("Debeka Krankenversicherung");
-        comboBoxVersicherungPrivat.addItem("Signal Iduna Krankenversicherung");
-        comboBoxVersicherungPrivat.addItem("AXA Krankenversicherung");
-        comboBoxVersicherungPrivat.addItem("DKV (Deutsche Krankenversicherung)");
-        comboBoxVersicherungPrivat.addItem("HanseMerkur Krankenversicherung");
-        comboBoxVersicherungPrivat.addItem("HUK-COBURG Krankenversicherung");
-        comboBoxVersicherungPrivat.addItem("R+V Krankenversicherung");
-        comboBoxVersicherungPrivat.addItem("Continentale Krankenversicherung");
-        comboBoxVersicherungPrivat.addItem("Barmenia Krankenversicherung");
-        comboBoxVersicherungPrivat.addItem("Sonstige");
-
-        comboBoxVersicherungGesetz.addItem("AOK");
-        comboBoxVersicherungGesetz.addItem("Barmer Krankenkasse");
-        comboBoxVersicherungGesetz.addItem("Techniker Krankenkasse (TK)");
-        comboBoxVersicherungGesetz.addItem("DAK-Gesundheit");
-        comboBoxVersicherungGesetz.addItem("BKK");
-        comboBoxVersicherungGesetz.addItem("IKK (Innungskrankenkassen)");
-        comboBoxVersicherungGesetz.addItem("Knappschaft");
-        comboBoxVersicherungGesetz.addItem("SBK (Siemens-Betriebskrankenkasse)");
-        comboBoxVersicherungGesetz.addItem("hkk Krankenkasse");
-        comboBoxVersicherungGesetz.addItem("KKH (Kaufmännische Krankenkasse)");
-        comboBoxVersicherungGesetz.addItem("Sonstige");
     }
 
     private void initPatienten() {
