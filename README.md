@@ -3,7 +3,7 @@
 ## 📋 Projektbeschreibung
 Unser Projekt, **PatientenAktenverwaltung**, ist eine Anwendung zur Verwaltung von Patientendaten. Das Ziel ist es, medizinische Einrichtungen bei der Organisation, Speicherung und Verwaltung von Patientendaten effizient zu unterstützen. 
 
-Mit diesem System können Patientendaten einfach abgespeichert, durchsucht und verwaltet werden. Es wurde mit Fokus auf Benutzerfreundlichkeit entwickelt.
+Mit diesem System können Patientendaten einfach abgespeichert und verwaltet werden. Es wurde mit Fokus auf Benutzerfreundlichkeit entwickelt.
 
 ---
 
