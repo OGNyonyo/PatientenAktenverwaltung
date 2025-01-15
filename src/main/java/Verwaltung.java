@@ -100,10 +100,7 @@ public class Verwaltung extends JFrame {
             } catch (NumberFormatException ex) {
                 JOptionPane.showMessageDialog(myPanel, "Ungültige Eingabe bei der Versicherungsnummer!",
                         "Fehler", JOptionPane.ERROR_MESSAGE);
-            } catch (Exception exception) {
-                JOptionPane.showMessageDialog(myPanel, "Ein unbekannter Fehler ist aufgetreten!",
-                        "Fehler", JOptionPane.ERROR_MESSAGE);
-                exception.printStackTrace();
+
             }
         });
 
