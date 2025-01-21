@@ -78,6 +78,7 @@ public class Verwaltung extends JFrame {
                     if (versichertennr == patientenListe.get(i).getVerischertennr()) {
                         JOptionPane.showMessageDialog(myPanel, "Der Patient mit eingegebener Versichertennummer existiert bereits",
                                 "Fehler", JOptionPane.ERROR_MESSAGE);
+                        return;
                     }
                 }
 
@@ -96,6 +97,7 @@ public class Verwaltung extends JFrame {
                     output.append(patient).append("\n");
                 }
                 textAreaAusgabe.setText(output.toString());
+
             } catch (NumberFormatException ex) {
                 JOptionPane.showMessageDialog(myPanel, "Ungültige Eingabe bei der Versicherungsnummer!",
                         "Fehler", JOptionPane.ERROR_MESSAGE);
